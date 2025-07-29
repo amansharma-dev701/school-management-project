@@ -1,0 +1,47 @@
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+
+
+
+
+.headings h1 {
+    font-size: 45px;
+    color: #01539d;
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 45px;
+    margin-bottom: 0%;
+    font-weight: 700;
+}
+
+
+.myNavbar {
+    background: #002147;
+   
+   
+}
+
+.nav-hover:hover {
+    color: #fdc500 !important;
+}
+.myLogo {
+    margin-left: 20%;
+    padding: 5px 10px;
+    width:30%
+}
+@media screen and (min-width: 200px) and (max-width: 992px) {
+    .main-container {
+      width: 100% !important;         
+    }
+    
+  }
+  .footerText {
+    background: #002147;
+    font-weight: 300;
+    margin: 0%;
+    font-size: 12px;
+
+}

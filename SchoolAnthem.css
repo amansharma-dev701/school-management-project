@@ -1,0 +1,84 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+        * {
+            font-family: "Roboto Condensed", sans-serif;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .myNavbar {
+            background: #002147;
+        }
+
+        .nav-hover:hover {
+            color: #fdc500 !important;
+        }
+
+        .main-heading-section {
+            position: relative;
+            overflow: hidden;
+            height: 250px;
+        }
+
+        .main-heading-section::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: url(./bgs/bgI.jpeg) no-repeat top left;
+            background-size: cover;
+            filter: blur(2px);
+            opacity: 0.5;
+            z-index: 1;
+            background-attachment: fixed;
+        }
+
+        .main-heading-section::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 100px;
+            width: 100%;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+            z-index: 2;
+        }
+
+        .heading1 {
+            z-index: 2;
+            position: relative;
+        }
+
+        .star-line {
+            color: rgba(142, 49, 41, 0.786);
+            font-size: 20px;
+            letter-spacing: 8px;
+        }
+
+        footer {
+            background-color: #002147;
+            color: rgba(255, 255, 255, 0.749);
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media (max-width: 768px) {
+            .logo-text-container {
+                flex-direction: column;
+                align-items: center !important;
+                text-align: center;
+            }
+
+            .logo-text-container img {
+                margin: 0 auto 15px;
+            }
+
+
+
+        }

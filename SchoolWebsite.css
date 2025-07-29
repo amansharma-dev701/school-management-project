@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+html{
+  scroll-behavior: smooth;
+}
+.headings h1 {
+    font-size: 45px;
+    color: #01539d;
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 45px;
+    margin-bottom: 0%;
+    font-weight: 700;
+}
+
+.myNavbar {
+    background: #002147;
+}
+
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('./bgs/s4.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    z-index: -1;
+width: 100%;
+}
+
+.myheader {
+    background: white;
+}
+
+.head-1 {
+    color: #002147;
+    font-size: 21px;
+    padding-top: 5px;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.footerPage {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('./bgs/scbg.jpg');
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.footerPage p {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 43px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    word-spacing: 4px;
+    color: transparent;
+    color: #143986;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+    font-style: italic;
+}
+
+.admiheading {
+    font-size: 19px;
+}
+
+.footerText {
+    background: #002147;
+    font-weight: 300;
+    margin: 0%;
+    font-size: 12px;
+
+}
+
+.ulList {
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 0 !important;
+}
+.main{
+  width: 100%;
+}
+.cc {
+    padding: 0 !important;
+}
+
+.Overlap {
+    position: relative;
+}
+
+.ulLista {
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px !important;
+}
+
+.text-cap {
+    /* font-family:"Roboto Condensed", sans-serif !important; */
+    color: #002147;
+}
+
+.nav-hover:hover {
+    color: #fdc500 !important;
+}
+
+.carousel-caption h2 {
+    font-weight: 600;
+}
+
+.head-2 {
+    color: rgba(124, 123, 123, .9);
+    font-size: 18px;
+    margin: 0%;
+    padding: 0%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.pp {
+    padding: 8px !important;
+}
+
+.admi {
+    font-size: 25px;
+    line-height: 1.6em;
+    color: #143986;
+    color: #fff;
+    margin: 0;
+    width: 100%;
+    background: #01539d;
+    font-weight: 600;
+}
+
+.admiCards {
+    background: white;
+}
+
+.myCard {
+    border: 1px solid rgba(20, 57, 134, .3);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.myCard:hover {
+    transform: scale(1.02);
+    /* border: 3px solid #143986; */
+}
+
+.con {
+    padding: 0% !important;
+}
+
+.mycards {
+    background: white;
+}
+
+.cardText {
+    color: #002147;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.myPhilosophy {
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.myLearning {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 45px;
+    word-spacing: 9px;
+    letter-spacing: 1.5px;
+    color: transparent;
+    background: rgba(1, 83, 157, 1);
+    background-clip: text;
+    text-shadow: 0 3px 3px rgba(255, 255, 255, 0.3);
+    font-style: italic;
+}
+
+
+
+.myLogo {
+    margin-left: 20%;
+    padding: 5px 10px
+}

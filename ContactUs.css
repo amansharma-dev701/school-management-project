@@ -1,0 +1,115 @@
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .top-bar {
+      background-color: #f8f9fa;
+      font-size: 14px;
+      padding: 5px 20px;
+    }
+
+    .logo img {
+max-height: 90px;    }
+
+    .school-header {
+      text-align: center;
+      line-height: 1.3;
+    }
+ .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+    .school-header .line1 {
+      font-size: 16px;
+      color: #8B0000;
+    }
+
+    .school-header .line2 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #002147;
+    }
+
+    .school-header .line3 {
+      font-size: 14px;
+      color: black;
+    }
+
+    .navbar {
+      background-color: #f7931e;
+    }
+
+    .nav-link {
+      color: white !important;
+      padding: 8px 16px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .nav-link:hover {
+      background-color: #d32f2f !important;
+      color: white !important;
+    }
+
+    .nav-link.active {
+      background-color: #d32f2f !important;
+      color: white !important;
+    }
+
+    .contact-banner {
+      position: relative;
+      background-image: url('https://i.ibb.co/jb8WYcZ/students-banner.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 220px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact-banner .overlay {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 20px 40px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .contact-banner h2 {
+      color: #002147;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .contact-banner p {
+      font-size: 14px;
+      color: #555;
+      margin: 0;
+    }
+    .text-orange {
+  color: #f7941e;
+}
+
+.custom-btn {
+  background-color: #f7941e;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #d32f2f;
+}
+.footerText {
+    background: #002147;
+    font-weight: 300;
+    margin: 0%;
+    font-size: 12px;
+  }
+    

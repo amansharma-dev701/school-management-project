@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+    * {
+      font-family: "Roboto Condensed", sans-serif;
+    }
+
+    body {
+      overflow-x: hidden;
+
+    }
+
+    .myNavbar {
+      background: #002147;
+    }
+
+    .nav-hover:hover {
+      color: #fdc500 !important;
+    }
+
+    .main-heading-section {
+      position: relative;
+      overflow: hidden;
+      height: 250px;
+    }
+
+    .main-heading-section::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: url(./bgs/bgI.jpeg) no-repeat top left;
+      background-size: cover;
+      filter: blur(2px);
+      opacity: 0.5;
+      z-index: 1;
+      background-attachment: fixed;
+    }
+
+    .main-heading-section::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 100px;
+      width: 100%;
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+      z-index: 2;
+    }
+
+    .heading1 {
+      z-index: 2;
+      position: relative;
+    }
+
+    .star-line {
+      color: rgba(142, 49, 41, 0.786);
+      font-size: 20px;
+      letter-spacing: 8px;
+    }
+
+    footer {
+      background-color: #002147;
+      color: rgba(255, 255, 255, 0.749);
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @media (max-width: 768px) {
+      .logo-text-container {
+        flex-direction: column;
+        align-items: center !important;
+        text-align: center;
+      }
+
+      .logo-text-container img {
+        margin: 0 auto 15px;
+      }
+
+      .founder-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .founder-section img {
+        max-width: 80%;
+        margin-bottom: 15px;
+      }
+
+      .founder-section .text {
+        margin-left: 0 !important;
+      }
+
+      .main-heading-section {
+        height: auto;
+        padding: 3rem 1rem
+      }
+    
+
+    }
+  </style>
+</head>
+<body>
+<div class="container my-4">
+  <div class="row align-items-center">
+    <!-- Logo Section -->
+    <div class="col-12 col-md-3 text-center text-md-start ">
+      <img src="./bgs/Logo.jpeg" alt="logo" width="50%" class="img-fluid " >
+
+
+
+
+    </div>
+
+    <!-- Heading Section -->
+    <div class="  col-12 col-md-6 text-md-start  text-center me-md-1" >
+      <h4 class="text-center">Veer Shivaji Foundation</h4>
+      <h1 class="text-center" style="color: #0c53a4; font-weight: bold; font-size: 3rem;">Delhi Public  International School</h1>
+      <h5 class="text-black-50 text-center">Affiliated to S.S.C. Board, Delhi</h5>
+    </div>
+  </div>
+</div>
+
+  <!-- Navbar -->
+  <div class="myNavbar2">
+    <nav class="navbar myNavbar navbar-expand-lg navbar-dark p-0">
+      <div class="container-fluid justify-content-center">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav d-flex justify-content-center w-100 gap-3">
+            <li class="nav-item">
+              <a class="nav-link nav-hover" href="./SchoolWebsite.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle nav-hover" href="#" role="button" data-bs-toggle="dropdown">About Us</a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="founderpresident.html">Founder President</a></li>
+                <li><a class="dropdown-item" href="welcomeletter.html">Welcome Letter</a></li>
+                <li><a class="dropdown-item" href="SchoolAnthem.html">School Anthem</a></li>
+              </ul>
+            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle nav-hover" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Our Schools
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" target="_blank" href="./RPS.html">DPS Ruby Park</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="./RKP.html">DPS R.K. Puram</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="./DPS.html">DPS Bangalore</a></li>
+                                </ul>
+                              </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle nav-hover" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Admissions
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" target="_blank" href="Admissions.html">Admission</a></li>
+                                    <li><a class="dropdown-item" target="_blank" href="AdmissionProcedure.html">Admission Procedure</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-hover" target="_blank" href="ContactUs.html" role="button"
+                                    aria-expanded="false">
+                                    Contact Us
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+
+  <!-- Main Heading -->
+  <div class="main-heading-section text-center">
+    <div class="heading1 mt-5">
+      <h4>Our simple three word philosophy is</h4>
+      <h1 style="color: #0057b3af; font-weight: bold;">LEARNING THROUGH LOVE</h1>
+      <h3 class="mt-5" style="color: #002147;">Founder President</h3>
+    </div>
+  </div>
+
+  <!-- Horizontal line with star -->
+  <div class="d-flex align-items-center justify-content-center my-4">
+    <hr class="flex-grow-1 border-dark">
+    <span class="px-3 star-line">★ ★ ★</span>
+    <hr class="flex-grow-1 border-dark">
+  </div>
+
+  <!-- Founder Image & Text -->
+  <div class="container  mb-4">
+    <div class="d-flex founder-section align-items-start">
+      <div><img src="./bgs/founder.jpeg" alt="" class="img-fluid" style="max-width: 250px;"></div>
+      <div class="text ms-4">
+        <h4>Mr. Shashikant Sutar</h4>
+        <h6 class="text-black-50">The Founder President</h6>
+        <h6 class="text-black-50">Raja Shree Shivraya Pratishthan</h6>
+      </div>
+    </div>
+  </div>
+
+  <!-- Paragraphs -->
+  <div class="container fs-5 lh-lg">
+    <p>
+      Hon'ble Mr. Shashikant Sutar, the Founder-President, popularly known as Bhau by all, has focused his energies on Social Work, Education and Culture. Raja Shree Shivraya Pratishthan runs successfully a range of educational institutes such as English and Marathi medium schools, D.Ed. colleges, Computer Science and Management colleges, Old People's home and Health clubs.
+    </p>
+    <p>
+      Bhau has been a friend and supporter of upliftment of people around, and is aptly known as the 'Architect of Kothrud'. His kind and understanding ways have endeared him to all.
+    </p>
+    <p>
+      New India School, at the behest of Bhau, has embraced all round development through deep-rooted cultural identity, national integrity and love for the nation.
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="mt-5">
+    <p class="mb-0">Designed & Developed by Technosys</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
